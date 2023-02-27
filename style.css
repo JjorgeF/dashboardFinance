@@ -132,7 +132,7 @@ li {
 
 .graf-infos {
 	background-color: white;
-	height: 200px;
+	height: 300px;
 	padding-top: 10px;
 	border-radius: 10px 10px 10px 10px;
 }
@@ -202,9 +202,4 @@ li {
 	background-color: yellow;
 	height: ;
 	width: 15%;
-}
-
-#myChart {
-	width: 300px;
-	height: 300px;
 }

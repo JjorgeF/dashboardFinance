@@ -1,0 +1,210 @@
+*{margin: 0; padding: 0px; box-sizing: border-box; font-family: sans-serif;}
+
+:root{
+	--background: #DFFF00;
+	--text:;
+	--color: white;
+	--files: ;
+
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: blueviolet;
+}
+
+a {
+	text-decoration: none;
+}
+
+.conteudo {
+	background-color: #C3C3C3;
+	width: 95%;
+	height: 90vh;
+	margin: 0 20px;
+	display: flex;
+	border-radius: 50px;
+}
+
+.nav-01 i {
+	font-size: 20px;
+	color: darkblue;
+	padding: 10px;
+
+}
+
+li {
+	list-style: none;
+	padding-top: 25px;
+}
+
+.nav-01 #active-i {
+	color: var(--background);
+	padding: 10px;
+	background-color: var(--color);
+	border-radius: 13px;
+}
+
+.nav-01 i:hover {
+	color: var(--background);
+	background-color: var(--color);
+	border-radius: 13px;
+	transition: 0.3s;
+}
+
+.nav-01 { /*Menu principal*/
+	padding: 0 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: var(--background);
+	height: auto;
+	border-radius: 50px 0px 0px 50px;
+	max-width: 0;
+}
+
+.nav-01 .container-i {
+	margin-right: 0px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.nav-01 .container-i .i-01 {
+	height: 40%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 70px;
+}
+/*Menu Central*/
+
+.div-menu-meio {
+	background-color: white;
+	height: 130px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.infos-ganhos {
+	background-color: purple;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: left;
+}
+.div-menu-meio h4 {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.menu-meio {
+	background-color: red;
+	height: 500px;
+	width: 50%;
+	padding: 110px 10px 0px 40px;
+	margin-right: 10px;
+}
+
+.ext-dep-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 200px;
+}
+
+.port {
+	font-size: 20px;
+}
+
+.ext-dep {
+	font-size: 15px;
+}
+
+.graf-infos {
+	background-color: white;
+	height: 200px;
+	padding-top: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.graf {
+	padding-top: 20px;
+}
+
+.graf-titulo {
+	padding-left: 10px;
+}
+
+/*ATIVOS PARA COMPRAR*/
+
+.graf-dir {
+	background-color: green;
+	padding-top: 30px;
+	padding-left: 20px;
+	width: 25%;
+}
+
+.info-graf {
+	background-color: white;
+}
+
+.ativos-titulo {
+
+}
+
+.sessao-atvs {
+	width: 260px;
+	height: 480px;
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+}
+
+.ativos-tab {
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-gap: 10px;
+	align-items: center;
+	align-content: center;
+}
+.atvs {
+	font-size: 12px;
+	border: 1px solid white;
+	width: 80px;
+	height: 80px;
+	background-color: brown;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#acs {
+	justify-content: center;
+	color: pink;
+	display: flex;
+	flex-direction: row;
+}
+
+/*Tabelo de Usuário*/
+
+.teste {
+	background-color: yellow;
+	height: ;
+	width: 15%;
+}
+
+#myChart {
+	width: 300px;
+	height: 300px;
+}

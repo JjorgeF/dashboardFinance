@@ -13,10 +13,6 @@
 	<title>Dashboard Financeira</title>
 </head>
 <body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"></script>
-<script src="script.js"></script>
-
 	<section class="conteudo">
 		<nav class="nav-01">
 			<div class="container-i">
@@ -78,11 +74,11 @@
 			</div>
 			<nav class="graf">
 				<div class="graf-infos">
+
 					<a class="graf-titulo">RENTABILIDADE</a>
 					<a>GRAFICO BEM LINDO E BONITO AQUI</a>
-					<canvas id="myChart">
+					<canvas id="plots" style="width:500px;max-width:500px"></canvas>
 
-					</canvas>
 				</div>
 			</nav>
 		</nav>
@@ -139,5 +135,9 @@
 			</div>
 		</div>
 	</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
